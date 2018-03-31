@@ -1,0 +1,128 @@
+/*
+*
+* @author Tatiane Zinsly
+* @version 0.2
+*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.menu-imagem {
+	background-image: url(../imagens/galaxia-menu-transparente.png);
+	height: 100px;
+}
+
+.menu-texto {
+	color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:visited {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #33F4B0;
+}
+
+
+.img-logo {
+	height: 100px;
+	width: 100px;
+	background: url(../imagens/logo-millenium.png) no-repeat;
+	background-size: contain;
+	display: block;
+	margin-top: 30px;
+}
+
+.meu-collapse {
+	background: white;
+}
+
+.divisor {
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 14px 10px;
+}
+
+.img-principal{
+	background: url('../imagens/universo_jovem_nerd.jpg') no-repeat;
+	display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;  
+  	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.conteudo-principal {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	margin: 20px 15px;
+	font-weight: bold;
+	transition-duration: 0.5s;
+	text-decoration-color: 0.5s;
+}
+
+.btn-azul {
+	width: 200px;
+	background: linear-gradient(#070719, #0B0B61, #070719);
+	border: 2px solid white;
+}
+
+.btn-azul:hover {
+	background: linear-gradient(#0B0B61, #070719, #0B0B61);
+	color: #424242;
+	border-color: #424242;
+}
+
+.btn-verde{
+	width: 300px;
+	background: linear-gradient(#0B610B, #00FF00, #0B610B);
+	border: 2px solid white;
+}
+
+.btn-verde:hover {
+	background: linear-gradient(#00FF00, #0B610B, #00FF00);
+	color: #424242;
+	border-color: #424242;
+}
+
+.img-categorias {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+}
+
+.conteudo-tabela {
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.rodape {
+	background: #848484;
+	text-align: center;
+}
+.assistido{
+	text-decoration: line-through;
+}
+
